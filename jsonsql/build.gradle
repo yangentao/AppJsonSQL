@@ -4,7 +4,7 @@ plugins {
 }
 ext {
     nameGroup = "dev.entao.app"
-    nameVersion = "0.7.2"
+    nameVersion = "0.8.0"
     nameAF = "jsonsql"
     nameGithub = "AppJsonSQL"
     libDesc = 'Android Library, SQL, JSON.'
@@ -13,7 +13,7 @@ ext {
 dependencies {
     implementation 'androidx.core:core-ktx:1.7.0'
 
-    api 'dev.entao.app:sql:0.7.1'
+    api 'dev.entao.app:sql:0.8.0'
     api 'dev.entao.app:json:0.7.2'
     api 'dev.entao.app:basic:0.7.2'
 }
